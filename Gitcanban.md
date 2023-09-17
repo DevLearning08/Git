@@ -59,7 +59,7 @@ git add .
 - Sử dụng để mô tả thông tin cho thư mục hoặc tệp được thêm mới hoặc cập nhật.
 
 ```bash
-git commit --m 'nội dung mô tả'
+git commit -m 'nội dung mô tả'
 ```
 
 # 7. Sử dụng để đẩy code từ máy tính lên Git
@@ -77,3 +77,29 @@ git push
 ```bash
 git log
 ```
+
+# 9. Cấu hình file .gitignore
+
+- Bước 1: Tạo tệp .gitignore
+
+- Bước 2: Định nghĩa các quy tắc gitignore
+
+Để loại bỏ một tệp cụ thể:
+
+```bash
+filename.txt
+```
+
+Để loại bỏ tất cả các tệp với một phần mở rộng cụ thể:
+
+```bash
+\*.log
+```
+
+Để loại bỏ một thư mục cụ thể và nội dung của nó:
+
+```bash
+foldername/
+```
+
+- Bước 3: Lưu và đặt .gitignore trong kho lưu trữ
